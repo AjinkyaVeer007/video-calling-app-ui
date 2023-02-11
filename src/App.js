@@ -29,10 +29,8 @@ function App() {
     } else {
       setGrid("");
     }
-    setMember((oldValue) => [...oldValue, "a"]);
+    setMember((oldValue) => [...oldValue, count]);
   };
-  //just to remove depolyment issue
-  // console.log(setMember([]));
 
   setTimeout(() => {
     setHint("");
@@ -47,7 +45,7 @@ function App() {
         <h1 className="lg:block md:block hidden text-[25px]">
           Friday Night Jam
         </h1>
-        <div className="flex justify-center items-center gap-4">
+        <div className="flex justify-center items-center gap-2">
           <div className="p-3 border rounded font-bold">{count}</div>
           <button
             onClick={handleCount}
