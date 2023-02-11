@@ -80,7 +80,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="lg:flex lg:flex-row md:flex md:flex-row flex-col justify-around">
+      <div className="bg-[#21242b] lg:flex lg:flex-row md:flex md:flex-row flex-col justify-around">
         <div className="mb-2 lg:mb-0 md:mb-0 flex border rounded justify-center items-center divide-x gap-[10px]">
           <div>
             <BsFillFileMusicFill size={30} />
