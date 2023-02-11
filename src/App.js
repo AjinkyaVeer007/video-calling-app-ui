@@ -29,10 +29,10 @@ function App() {
     } else {
       setGrid("");
     }
-    member.push("a");
+    setMember((oldValue) => [...oldValue, "a"]);
   };
   //just to remove depolyment issue
-  console.log(setMember([]));
+  // console.log(setMember([]));
 
   setTimeout(() => {
     setHint("");
