@@ -31,6 +31,8 @@ function App() {
     }
     member.push("a");
   };
+  //just to remove depolyment issue
+  console.log(setMember([]));
 
   setTimeout(() => {
     setHint("");
